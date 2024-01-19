@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo's List</title>
+
+    <link rel="icon" href="https://img.icons8.com/plasticine/100/000000/list.png">
+
+    <style>
+        /* Include the padding and border in an element's total width and height */
+        body {
+            background-color: #e9eb88;
+        }
+            
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Remove margins and padding from the list */
+        ul {
+          margin: 0;
+          padding: 0;
+        
+        }
+        
+        /* Style the list items */
+        ul li {
+          cursor: pointer;
+          position: relative;
+          padding: 12px 8px 12px 40px;
+          background-color: #e9eb88;
+          font-size: 18px;
+          transition: 0.2s;
+        
+          /* make the list items unselectable */
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+        
+        /* Set all odd list items to a different color (zebra-stripes) */
+        ul li:nth-child(odd) {
+            background-color: #e9eb88;
+        }
+        
+        /* Darker background-color on hover */
+        ul li:hover {
+          background: #d3d84e;
+        }
+        
+        /* When clicked on, add a background color and strike out text */
+        ul li.checked {
+          background: #727428;
+          color: #fff;
+          text-decoration: line-through;
+        }
+        
+        /* Add a "checked" mark when clicked on */
+        ul li.checked::before {
+          content: '';
+          position: absolute;
+          border-color: #fff;
+          border-style: solid;
+          border-width: 0 2px 2px 0;
+          top: 10px;
+          left: 16px;
+          transform: rotate(45deg);
+          height: 15px;
+          width: 7px;
+        }
+        
+        /* Style the close button */
+        .close {
+          position: absolute;
+          right: 0;
+          top: 0;
+          padding: 12px 16px 12px 16px;
+        }
+        
+        .close:hover {
+          background-color: #f44336;
+          color: white;
+        }
+        
+        /* Style the header */
+        .header {
+          background-color: #f44336;
+          padding: 30px 40px;
+          color: white;
+          text-align: center;
+        }
+        
+        /* Clear floats after the header */
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        /* Style the input */
+        input {
+            margin: 0;
+            border: none;
+            border-radius: 0;
+            width: 75%;
+            padding: 10px;
+            float: left;
+            font-size: 16px;
+        }
+        
+        /* Style the "Add" button */
+        .addBtn {
+          padding: 10px;
+          width: 25%;
+          background: #d9d9d9;
+          color: #555;
+          float: left;
+          text-align: center;
+          font-size: 16px;
+          cursor: pointer;
+          transition: 0.3s;
+          border-radius: 0;
+        }
+        
+        .addBtn:hover {
+          background-color: #bbb;
+        }
+            
+        
+    </style>
+
+</head>
+<body>
+
+    <div id="listDIV" class="body">
+        <h1>Welcome to your To Do List! &#128221;</h1>
+        <p>Below this paragraph is where you'll be able to add, remove, and mark your tasks completed as you wish. There will be examples that you can choose to delete or keep.</p>
+        
+        <input type="text" id="userInput" placeholder="Add task title here..."
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <ul id=""myUL>
+        <li>Shop for groceries</li>
+        <li>Venmo son/daughter to buy lunch</li>
+        <li>Change living room light bulbs (both)</li>
+
+
+    </ul>
+
+    <script> <!-- JavaScript goes here --></script>
+
+
+</body>
+</html>
