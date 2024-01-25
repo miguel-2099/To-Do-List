@@ -1,6 +1,6 @@
 # Overview
 
-This program is designed as a To Do list. It includes, adding, removing, and mark tasks as completed.
+This program is designed as a To-do list. It includes adding, removing, and marking tasks as completed.
 
 Colors:
 
