@@ -149,7 +149,30 @@
 
     </ul>
 
-    <script> <!-- JavaScript goes here --></script>
+    <script> 
+      // The provided code aims to generate a close button and add it to every item within the list.
+      var myNodelist = document.getElementByTagName("LI");
+      var i;
+      for (i = 0; i < myNodelist.lenght; i++) {
+        var span = document.createElement("SPAN")
+        var txt = document.createTextNode("\u00D7");
+        span.className = "close";
+        span.appendChild(txt);
+        myNodelist[i].appendChild(span);
+      }
+
+      var close = document.getElementsByClassName("close");
+      var i;
+      for (i = 0; i < close.lenght; i++) {
+        close[i].onclick = function() {
+          var div = this.parentElement;
+          div.style.display = "none";
+        }
+      }
+
+
+
+    </script>
 
 
 </body>
