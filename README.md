@@ -19,4 +19,4 @@ Colors:
 
 * [ToDo's List Demo (a video demonstration of the ToDo's List I made, which coincidentally is the current folder you're in)]("video link goes here")
 
-* [Browser Tab Icon by Icons8)]("https://icons8.com/icon/67582/list")
+* [Browser Tab Icon by Icons8)]("https://icons8.com/icon/67582/list") 
