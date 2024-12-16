@@ -7,7 +7,8 @@ Colors:
 * Browser Tab Icon: List icon.
 * Background (#): Pastel yellow  is meant to resemble a Post-it® Note from 3M®.
 
-[ToDo's List Demo (a video demonstration of the ToDo's List I made, which coincidentally is the current folder you're in)](https://www.youtube.com/watch?v=awxh6a9)
+[To-do List Website Demo](https://todo-list-cse310.glitch.me)
+[To-do's List Demo (a video demonstration of the ToDo's List I made, which coincidentally is the current folder you're in)](https://www.youtube.com/watch?v=awxh6a9)
 
 # Development Environment
 
