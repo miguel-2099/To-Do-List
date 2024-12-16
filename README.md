@@ -9,7 +9,7 @@ Colors:
 
 [To-do List Website Demo](https://todo-list-cse310.glitch.me)
 
-[To-do's List Demo (a video demonstration of the ToDo's List I made, which coincidentally is the current folder you're in)](https://youtu.be/22Eo92FaO04)
+[To-do's List Demo (a video demonstration of the ToDo's List I made, which coincidentally is the current folder you're in)](https://youtu.be/_2zFVlkvYDQ)
 
 # Development Environment
 
